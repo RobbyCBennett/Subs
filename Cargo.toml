@@ -1,0 +1,10 @@
+[package]
+name = 'subs'
+version = '1.0.0'
+description = 'Adjust subtitle times and convert .srt to .vtt'
+edition = '2024'
+
+[profile.release]
+strip = true
+lto = true
+codegen-units = 1
